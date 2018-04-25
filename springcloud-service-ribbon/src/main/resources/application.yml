@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+
+server:
+  port: 8010
+
+spring:
+  application:
+    name: service-ribbon
+
+feign:
+  hystrix:
+    enabled: true
