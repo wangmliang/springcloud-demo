@@ -11,6 +11,8 @@
 		<module>springcloud-app1</module>
 		<module>springcloud-service</module>
 		<module>springcloud-serice-feign</module>
+		<module>springcloud-service-ribbon</module>
+		<module>springcloud-serice-zuul</module>
 	</modules>
 	<packaging>pom</packaging>
 
